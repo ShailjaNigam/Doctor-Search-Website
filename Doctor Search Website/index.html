@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Search Website</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+</head>
+<body>
+    <div class="hero">
+        <header>
+            <nav>
+                <p class="logo">HEALTHCARE.</p>
+                <div class="menu">
+                    <li>HOME</li>
+                    <li>Consultations</li>
+                    <li>SERVICES</li>
+                    <li class="btn actv"><a href="#main_form">Get Started</a></li>
+                </div>
+            </nav>
+            <div class="header_bottom">
+                <div class="left">
+                    <h2>Find And Search Your <p class="word">Suitable and trusted Doctor’s</p></h2>
+                    <p class="para">get the most suitable search results!</p>
+                    <div id="main_form" class="main_form">
+                        <div class="input_box">
+                          <input type="search" name="doctor-type" id="doctor-type" placeholder="Doctor type">
+                        </div>
+                        <div class="input_box">
+                          <input type="search" name="location" id="location" placeholder="Search Area">
+                        </div>
+                          <div class="rectangle" onclick="handleSubmit()">
+                          <img class="search" alt="" src="./public/mask-group@2x.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                <img
+                    class="header_img"
+                    alt=""
+                    src="./public/doctors.png"
+                />
+            </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="loading">Loading...
+    </div>
+
+    <div class="search_result">
+        <p class="subhead">Doctors Found In Your Area</p>
+        <div class="doctors">
+        </div>
+    </div>
+
+   <div class="steps_box">
+    <p class="stephead">3 Easy Steps And Get Your Solution</p>
+    <div class="steps">
+        <div class="step">
+            <div>
+                <img
+                alt=""
+                src="./public/mask-group1@2x.png"
+              />
+            </div>
+            <p>Find Best Doctor’s</p>
+            <p class="pr">Find Your Doctor as per your requirement</p>
+        </div>
+        <div class="step">
+            <div>
+                <img
+                alt=""
+                src="./public/mask-group2@2x.png"
+              />
+            </div>
+            <p>Get Appointment</p>
+            <p class="pr">You can get Doctor's appointment quickly</p>
+        </div>
+        <div class="step">
+            <div>
+                <img
+                alt=""
+                src="./public/mask-group3@2x.png"
+              />
+            </div>
+            <p>Happy Consultations</p>
+            <p class="pr">Do Consultations And Take appointment according to your need</p>
+        </div>
+    </div>
+   </div>
+   <div class="bottomsection">
+    <div class="leftsection">
+        <img
+        alt=""
+        src="./public/F0037584-Female_Doctor_smiling.jpg"
+      />
+    </div>
+    <div class="rightsection">
+        <h2>
+            Best Quality Service With Our <p class="word">Experience Doctors</p>
+        </h2>
+        <p class="para">We take immense pride in offering you the services of highly qualified and experienced doctors who are dedicated to providing the best possible care. Our team consists of renowned professionals who possess a wealth of knowledge and expertise in their respective fields. With a commitment to delivering exceptional service, we strive to ensure your well-being and provide you with the highest standard of medical care</p>
+       
+    </div>
+   </div>
+   <div class="footer"></div>
+</body>
+</html>

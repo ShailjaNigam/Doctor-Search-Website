@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-13xl: 32px;
+  --font-size-xl: 20px;
+  --font-size-29xl: 48px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-white: #fff;
+  --edeffa: #edeffa;
+  --color-black: #000;
+  --color-cornflowerblue-100: #52a9f9;
+  --color-cornflowerblue-200: #48a4f9;
+   --color-green: rgb(82, 124, 160);
+  --color-bg: #c2c5d5;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+}
